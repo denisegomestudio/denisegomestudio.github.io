@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clube de Membros | Denise Gomes Studio</title>
+    <meta name="description"
+        content="Faça parte do Clube de Membros da Denise Gomes. Aulas exclusivas, moldes e técnicas avançadas de biscuit.">
+    <link rel="icon" type="image/svg+xml" href="../assets/images/logo.svg">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <style>
+        .plan-card {
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+        .plan-card:hover {
+            transform: translateY(-20px) scale(1.02);
+            border-color: var(--accent-color) !important;
+            box-shadow: 0 30px 60px rgba(226, 162, 155, 0.3) !important;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Floating Background SVGs Container -->
+    <div id="floating-bg"></div>
+
+    <!-- Navigation -->
+    <header id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <img src="../assets/images/logo.svg" alt="Logo Denise Gomes Studio" class="logo-icon">
+                    Denise Gomes Studio
+                </div>
+                <div class="mobile-menu-toggle" aria-label="Abrir menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="nav-menu">
+                    <ul class="nav-links">
+                        <li><a href="../index.html" class="nav-link">Início</a></li>
+                        <li><a href="../cursos/index.html" class="nav-link">Cursos</a></li>
+                        <li><a href="../loja/index.html" class="nav-link">Loja Online</a></li>
+                        <li><a href="index.html" class="nav-link">Membros</a></li>
+                    </ul>
+                    <a href="../index.html#contatos" class="btn-cta nav-link">Fale Comigo</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main id="app-content">
+        <!-- Plans Section (At Top) -->
+        <section class="section-padding bg-gradient-1" style="padding-top: 150px;">
+            <div class="container">
+                <div class="section-title">
+                    <span class="hero-tag animate-on-load delay-1">Assinatura Exclusiva</span>
+                    <h1 class="animate-on-load delay-2">Escolha seu Plano</h1>
+                    <p class="animate-on-load delay-3">Planos flexíveis para todos os momentos da sua jornada artística.</p>
+                </div>
+                
+                <div class="course-grid">
+                    <!-- Plano Mensal -->
+                    <div class="course-card plan-card animate-on-load delay-3" style="border: 2px solid rgba(231, 188, 177, 0.3);">
+                        <div class="course-info" style="text-align: center; padding: 3rem 2rem;">
+                            <span style="text-transform: uppercase; letter-spacing: 2px; font-size: 0.8rem; color: var(--accent-color); font-weight: 700;">Flexível</span>
+                            <h3 style="font-size: 2rem; margin: 1rem 0;">Plano Mensal</h3>
+                            <div class="price" style="font-size: 2.5rem; font-weight: 700; margin-bottom: 1rem;">
+                                <span style="font-size: 1rem; vertical-align: middle;">R$</span>29,90<span style="font-size: 1rem; color: var(--text-muted);">/mês</span>
+                            </div>
+                            <p>Assinatura mês a mês. Ideal para quem quer flexibilidade total.</p>
+                            <ul style="list-style: none; padding: 0; margin-bottom: 2rem; text-align: left;">
+                                <li style="margin-bottom: 0.8rem;">✓ Acesso total às aulas</li>
+                                <li style="margin-bottom: 0.8rem;">✓ Cancelamento a qualquer momento</li>
+                                <li style="margin-bottom: 0.8rem;">✓ Suporte na comunidade</li>
+                            </ul>
+                            <a href="#" class="btn-cta" style="width: 100%; display: block;">Assinar Agora</a>
+                        </div>
+                    </div>
+
+                    <!-- Plano Anual -->
+                    <div class="course-card plan-card animate-on-load delay-4" style="border: 3px solid var(--accent-color); transform: scale(1.05); box-shadow: 0 20px 40px rgba(226, 162, 155, 0.2);">
+                        <div style="background: var(--accent-color); color: white; padding: 0.5rem; text-align: center; font-weight: 700; font-size: 0.8rem; text-transform: uppercase;">Mais Popular - 20% OFF</div>
+                        <div class="course-info" style="text-align: center; padding: 3rem 2rem;">
+                            <span style="text-transform: uppercase; letter-spacing: 2px; font-size: 0.8rem; color: var(--accent-color); font-weight: 700;">Completo</span>
+                            <h3 style="font-size: 2rem; margin: 1rem 0;">Plano Anual</h3>
+                            <div class="price" style="font-size: 2.5rem; font-weight: 700; margin-bottom: 1rem;">
+                                <span style="font-size: 1rem; vertical-align: middle;">R$</span>23,90<span style="font-size: 1rem; color: var(--text-muted);">/mês</span>
+                            </div>
+                            <p>12 meses de acesso com o melhor custo-benefício.</p>
+                            <ul style="list-style: none; padding: 0; margin-bottom: 2rem; text-align: left;">
+                                <li style="margin-bottom: 0.8rem;">✓ Tudo do plano mensal</li>
+                                <li style="margin-bottom: 0.8rem;">✓ Maior economia garantida</li>
+                                <li style="margin-bottom: 0.8rem;">✓ Acesso prioritário a novidades</li>
+                            </ul>
+                            <a href="#" class="btn-cta" style="width: 100%; display: block;">Assinar Anual</a>
+                        </div>
+                    </div>
+
+                    <!-- Plano Semestral -->
+                    <div class="course-card plan-card animate-on-load delay-5" style="border: 2px solid rgba(231, 188, 177, 0.3);">
+                        <div class="course-info" style="text-align: center; padding: 3rem 2rem;">
+                            <span style="text-transform: uppercase; letter-spacing: 2px; font-size: 0.8rem; color: var(--accent-color); font-weight: 700;">Equilibrado</span>
+                            <h3 style="font-size: 2rem; margin: 1rem 0;">Plano Semestral</h3>
+                            <div class="price" style="font-size: 2.5rem; font-weight: 700; margin-bottom: 1rem;">
+                                <span style="font-size: 1rem; vertical-align: middle;">R$</span>25,57<span style="font-size: 1rem; color: var(--text-muted);">/mês</span>
+                            </div>
+                            <p>6 meses de acesso com 15% de desconto nas parcelas.</p>
+                            <ul style="list-style: none; padding: 0; margin-bottom: 2rem; text-align: left;">
+                                <li style="margin-bottom: 0.8rem;">✓ Acesso por 6 meses</li>
+                                <li style="margin-bottom: 0.8rem;">✓ Desconto progressivo</li>
+                                <li style="margin-bottom: 0.8rem;">✓ Suporte prioritário</li>
+                            </ul>
+                            <a href="#" class="btn-cta" style="width: 100%; display: block;">Assinar Semestral</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hero Content (Now Below Plans) -->
+        <section class="section-padding bg-gradient-2">
+            <div class="container">
+                <div class="section-title">
+                    <h2 class="animate-on-load delay-1">Clube de Membros Denise Gomes</h2>
+                    <p class="animate-on-load delay-2">Aprenda modelagem em biscuit com quem entende do assunto. Aulas, moldes e técnicas exclusivas todos os meses.</p>
+                </div>
+                
+                <div class="hero-wrapper" style="align-items: center; margin-top: 3rem;">
+                    <div class="hero-content">
+                        <h3 class="animate-on-load delay-1">O que você recebe no Clube</h3>
+                        <ul style="list-style: none; padding: 0; margin-top: 2rem;">
+                            <li class="animate-on-load delay-2" style="margin-bottom: 1.5rem; display: flex; align-items: flex-start; gap: 1rem;">
+                                <div style="background: var(--accent-color); color: white; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">✓</div>
+                                <div>
+                                    <strong>Aulas em Vídeo:</strong> Tutoriais detalhados do iniciante ao avançado.
+                                </div>
+                            </li>
+                            <li class="animate-on-load delay-3" style="margin-bottom: 1.5rem; display: flex; align-items: flex-start; gap: 1rem;">
+                                <div style="background: var(--accent-color); color: white; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">✓</div>
+                                <div>
+                                    <strong>Moldes e Manuais:</strong> Materiais de apoio para facilitar sua produção.
+                                </div>
+                            </li>
+                            <li class="animate-on-load delay-4" style="margin-bottom: 1.5rem; display: flex; align-items: flex-start; gap: 1rem;">
+                                <div style="background: var(--accent-color); color: white; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">✓</div>
+                                <div>
+                                    <strong>Técnicas Modernas:</strong> Novidades exclusivas focadas em tendências do mercado de biscuit.
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="hero-image desktop-only animate-on-load delay-3">
+                        <img src="../assets/images/workshop.png" alt="Aulas de Biscuit" style="border-radius: 30px;">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final Call -->
+        <section class="section-padding bg-gradient-3" style="text-align: center;">
+            <div class="container">
+                <h2 class="animate-on-load delay-1">Venha aprender conosco!</h2>
+                <p class="animate-on-load delay-2" style="margin-bottom: 2rem;">Transforme seu hobby em uma profissão lucrativa e prazerosa.</p>
+                <a href="https://api.whatsapp.com/send?phone=5521994097767&text=Olá Denise! Gostaria de saber mais sobre o Clube de Membros." class="btn-cta animate-on-load delay-3">Tirar Dúvidas no WhatsApp</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2026 Denise Gomes Studio. Artesanato Premium & Offline.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../assets/js/main.js"></script>
+</body>
+
+</html>
